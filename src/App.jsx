@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Chess} from 'chess.js'
 import { Chessboard } from "react-chessboard";
-import { API_KEY } from './utils'
+import { API_KEY } from '../utils'
 import OpenAI from "openai";
 
 function App() {
